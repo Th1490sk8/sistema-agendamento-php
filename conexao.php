@@ -1,9 +1,9 @@
 <?php
 // Configurações do banco de dados
-$host = 'localhost';        // Geralmente 'localhost' se estiver usando XAMPP/WAMP/MAMP
-$dbname = 'calendario_db';  // Substitua pelo nome do seu banco de dados
-$user = 'root';             // Seu usuário do MySQL (padrão é root no XAMPP)
-$pass = 'Fobos@Deimos07';                 // Sua senha do MySQL (padrão é vazio no XAMPP)
+$host = '';        // Geralmente 'localhost' se estiver usando XAMPP/WAMP/MAMP
+$dbname = '';  // Substitua pelo nome do seu banco de dados
+$user = '';             // Seu usuário do MySQL (padrão é root no XAMPP)
+$pass = '';                 // Sua senha do MySQL (padrão é vazio no XAMPP)
 
 try {
     // Cria a conexão usando PDO
